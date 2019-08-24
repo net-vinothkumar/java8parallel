@@ -10,7 +10,9 @@ The Stream API enables developers to create the parallel streams that can take a
 In a parallel stream, the operations are executed in parallel and there are two ways to create a parallel stream.
 
 Using the parallelStream() method on a collection\
-Using the parallel() method on a stream
+Using the parallel() method on a stream\
+
+The default processing that occurs in such a Stream uses the ForkJoinPool.commonPool(), a Thread Pool shared by the entire application.
 
 <img width="683" alt="Screen Shot 2019-08-22 at 20 01 28" src="https://user-images.githubusercontent.com/30971809/63538387-1b55b700-c518-11e9-8fc8-9a9aaf034b69.png">
 
