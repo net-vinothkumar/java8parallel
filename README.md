@@ -3,6 +3,8 @@
 # What is Java 8 Parallel Stream ?
 Parallel Streams are the greatest addition to Java8 after Lambdas.
 
+A stream is conceivable as a continuous flow of data.
+
 Parallel processing is all around nowadays. Because of the increase of the number of cpu cores and the lower hardware cost which allows cheaper cluster-systems, parallel processing seems to be the next big thing.
 
 The Stream API enables developers to create the parallel streams that can take advantage of multi-core architectures and enhance the performance of Java code. 
@@ -10,7 +12,9 @@ The Stream API enables developers to create the parallel streams that can take a
 In a parallel stream, the operations are executed in parallel and there are two ways to create a parallel stream.
 
 Using the parallelStream() method on a collection\
-Using the parallel() method on a stream\
+Using the parallel() method on a stream
+
+
 
 The default processing that occurs in such a Stream uses the ForkJoinPool.commonPool(), a Thread Pool shared by the entire application.
 
