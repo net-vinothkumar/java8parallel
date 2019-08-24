@@ -107,7 +107,10 @@ Thread : ForkJoinPool.commonPool-worker-3, alphabet: y
 Thread : ForkJoinPool.commonPool-worker-13, alphabet: t
 ```
 
->sysctl hw.physicalcpu hw.logicalcpu
+
+Example  3 : Print prime numbers in 1 Million using Sequential and Parallel Stream.
+
+sysctl hw.physicalcpu hw.logicalcpu
 hw.physicalcpu: 4
 hw.logicalcpu: 8
 
