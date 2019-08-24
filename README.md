@@ -114,10 +114,10 @@ sysctl hw.physicalcpu hw.logicalcpu
 hw.physicalcpu: 4
 hw.logicalcpu: 8
 
-Sequential Stream - CPU
+Sequential Stream - CPU\
 <img width="549" alt="Screen Shot 2019-08-24 at 19 41 27" src="https://user-images.githubusercontent.com/30971809/63640986-3dca0a80-c6a7-11e9-9a12-a1baacb78423.png">
 
-Parallel Stream - CPU
+Parallel Stream - CPU\
 As you can see parallel stream used all 4 CPU cores to perform computation.
 <img width="539" alt="Screen Shot 2019-08-21 at 05 57 47" src="https://user-images.githubusercontent.com/30971809/63622144-16ffcb80-c5f6-11e9-8bcb-fea6df5d9adb.png">
 
